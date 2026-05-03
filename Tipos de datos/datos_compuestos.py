@@ -11,7 +11,7 @@ lista[3] = "Jomi Noxus BW"
 #Esto no
 
 #tupla[3] = "Jomi Noxus BW"
-
+e
 print(lista[3])
 
 #Creando un conunto, solo se crea con llaves, no se pueden repetir elementos

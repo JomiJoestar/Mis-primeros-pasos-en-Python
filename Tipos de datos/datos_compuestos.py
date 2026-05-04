@@ -11,7 +11,7 @@ lista[3] = "Jomi Noxus BW"
 #Esto no
 
 #tupla[3] = "Jomi Noxus BW"
-e
+
 print(lista[3])
 
 #Creando un conunto, solo se crea con llaves, no se pueden repetir elementos
@@ -28,10 +28,10 @@ diccionario = {
     'anime_favorito' : "Jojos",
     'esta_emocionada' : True,
     'altura' : 1.65,
-    'dato_duplicado': "Jojos",
+    'dato_duplicado': "Jojos"
 }
 
-print(diccionario['anime_favorito'])
+print(diccionario['nombre'])
 
 
 

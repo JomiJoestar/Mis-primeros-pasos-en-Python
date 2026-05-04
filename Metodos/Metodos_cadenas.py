@@ -14,11 +14,13 @@ cadena2 = "Aprendiendo metodos en python"
 
 #convierte a mayusculas
 mayusculas = cadena1.upper()
-print(mayusculas)
 
 #convierte a minisculas
 minusculas = cadena1.lower()
-print(minusculas)
 
+#primera letra en minisculas
+primer_letra_mayus = cadena1.capitalize()
+
+print(primer_letra_mayus)
 
 

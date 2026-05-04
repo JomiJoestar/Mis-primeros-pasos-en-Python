@@ -21,6 +21,14 @@ minusculas = cadena1.lower()
 #primera letra en minisculas
 primer_letra_mayus = cadena1.capitalize()
 
-print(primer_letra_mayus)
+#buscamos una cadena en otra cadena 
+#busca una letra y devuelve la posicion en la que se encuentra
+#es key sensitive, es sensible a mayusculas y minisculas: Sino no hay mayusculas en el texto pondra -1 lo que significa que no esta, o no existe
+busqueda_find = cadena1.find("J")
+
+#buscamos una cadena en otra cadena, casi igual que el find pero da error si no existe (lanza una excepcion)
+busqueda_index = cadena1.index("J")
+print(busqueda_index)
+
 
 

@@ -47,6 +47,15 @@ if es_vip or tiene_entrada:
 else:
     print("No puedes pasar...")
 
+#NOT
+llueve: False
+
+if not llueve: 
+    print("Puedes salir a caminar")
+else:
+    print("Procura llevar un paraguas")
+
+
 
 
 

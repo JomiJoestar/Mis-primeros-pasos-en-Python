@@ -45,6 +45,18 @@ print("Nombre:\tJomi\nEdad:\t22\nCiudad:\tCartagena")
 
 # 4. \ BARRA INVERTIDA
 mensaje = "La ruta del archivo es C:\\Users\\Jomi\\Documents\\archivo.txt"
+#me devolvera esto = C:\Users\Jomi\Documents\archivo.txt
 print(mensaje)
 
+# 5. CADENA CRUDA (RAW STRINGS)
+mensaje_crudo = r"La ruta del archivo es C:\Users\Jomi\Documents\archivo.txt"
+#me devolvera esto = La ruta del archivo es C:\Users\Jomi\Documents\archivo.txt
+print(mensaje_crudo)
 
+
+#ANOTACIONES: ES LO MISMO QUE CON LA BARRA INVERTIDA DOBLE, SOLO QUE CON AGREGARLE r ES MAS EFICIENTE 
+
+a = "Hola"
+b = "Mundo"
+c = a + " " + b
+print(c)

@@ -3,10 +3,10 @@ cadena2 = "Aprendiendo metodos en python"
 
 #lista de herramientas basicas para trabajar con texto en python
 #DIR:(funcion) Muestra todo que podemos hacer con un objeto en especifico, sea texto, numero, lista... para cada objeto hay cosas diferentes que podemos utilizar
-#print(dir("texto"))
-#print(dir(7))
-#print(dir(["texto"]))
-#print(dir(("texto")))
+print(dir("texto"))
+print(dir(7))
+print(dir(["texto"]))
+print(dir(("texto")))
 
 
 #Metodos en python
@@ -49,5 +49,23 @@ print(busqueda_index)
 print(es_alfanumerico)
 print(contar_coincidencias)
 print(contar_caracteres)
+
+
+#LA CADENAS NO SE MODIFICAN NUNCA PERO PUEDEN SI SE LES PUEDE AGREGAR, SE PUEDE USAR LA CONCATENACION
+
+plural = "gato" + "s"
+cantidad = 10
+lugar = "casa"
+
+situacion = f"En la {lugar} hay {cantidad} {plural}..."
+print(situacion)
+
+#tambien usando fstrigd
+animal = "perro"
+lugar2 = "parque"
+situacion2 = f"Hay varios {animal}s en el {lugar2}..."
+
+print(situacion2)
+
 
 

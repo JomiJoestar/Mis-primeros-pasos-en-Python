@@ -12,4 +12,6 @@ print(f"el indice de la subcadena mundo es: {indice}")
 # OBTENER EL INDICE DE LA SUBCADENA HOLA
 indice = cadena.find("Hola")
 print(f"el indice de la subcadena Hola es: {indice}")
+#Salida: el indice de la subcadena Hola es: 0
+
 

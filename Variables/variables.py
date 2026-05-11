@@ -18,6 +18,5 @@ nombre_completo = "Jomi Joestar"
 
 NOMBRE_COMPLETO = "Jomi Joestar"
 
-print('valor de pi:', math.pi)
 
 

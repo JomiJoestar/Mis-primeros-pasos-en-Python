@@ -60,3 +60,9 @@ a = "Hola"
 b = "Mundo"
 c = a + " " + b
 print(c)
+
+#hola mundo soy jomi 
+edad = 22
+saludo = f"hola mundo soy jomi y mi edad es: {edad}"
+
+print(saludo)

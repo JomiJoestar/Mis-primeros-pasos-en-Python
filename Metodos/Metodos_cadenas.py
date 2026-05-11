@@ -41,6 +41,10 @@ contar_coincidencias = cadena1.count("o")
 #contamos cuantos caracteres tiene una cadena
 contar_caracteres = len(cadena1)
 
+#quitar espacios
+quitar_espacios = cadena1.strip()
+
+
 print(mayusculas)
 print(minusculas)
 print(primer_letra_mayus)
@@ -49,6 +53,8 @@ print(busqueda_index)
 print(es_alfanumerico)
 print(contar_coincidencias)
 print(contar_caracteres)
+print(quitar_espacios)
+
 
 
 #LA CADENAS NO SE MODIFICAN NUNCA PERO PUEDEN SI SE LES PUEDE AGREGAR, SE PUEDE USAR LA CONCATENACION

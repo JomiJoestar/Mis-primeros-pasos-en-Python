@@ -16,6 +16,8 @@ print(sangria + "Este texto esta indentado")
 #Salida:         Este texto esta indentado
 
 # 3. PATRONES SIMPLES
-print("1" * 100)  #Salida: 11111 (texto, no numero)
+print("1" * 5)  #Salida: 11111 (texto, no numero)
 
-
+# 4. ERROR COMUN (COMENTADO PARA EVITAR CRASH)
+#print("Hola" * 1.5) #Error: TypeError: can't multiply sequence by non-int of type 'str' 
+#SOLO SE PUEDE MULTIPLICAR POR UN NUMERO ENTERO)

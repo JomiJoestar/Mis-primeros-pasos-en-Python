@@ -12,4 +12,5 @@ print('\n Datos Del Empleado')
 print(f'Nombre: {nombre_empleado}')
 print(f'Edad: {edad}')
 print(f'Su salario es de: {salario}')
-print(f'Es jefe de Departamento? {es}')
+print(f'Es jefe de Departamento? {es_jefe_departamento}')
+

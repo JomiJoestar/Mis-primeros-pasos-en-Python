@@ -6,3 +6,7 @@ elif ingreso_mensual > 5000:
     print("Estas regular")
 else:
     print("Eres pobre")
+
+
+
+    

@@ -3,7 +3,8 @@
 
 # Valorea aleatorios con la funcion radint
 
-#import random
+#'''significa: “Del módulo random, tráeme solamente la función randint para poder usarla en mi programa”.'''
+#Python trae muchas funciones guardadas en “módulos”. El módulo se llama random, y dentro de ese módulo existe una función llamada randint()
 from random import randint
 
 # Generar un numero aleatorio entre 1 y 10 

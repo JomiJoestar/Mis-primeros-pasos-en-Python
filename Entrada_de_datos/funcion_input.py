@@ -29,3 +29,10 @@ edad = int(input("Ingresa tu edad: "))
 print(f"Tu edad es: {edad}")
 print(edad + 20) #FUNCIONA
 
+#lA CONVERSION TAMBIEN SE PUEDE REALIZAR EN PRINT SI NO SE HA HECHO ANTES
+#print(int(edad + 4)) #Tambien funciona
+
+#Para decimales (precio y altura)
+altura = float(input("Ingrese su altura: "))
+print(f"Su altura es: {altura}")
+

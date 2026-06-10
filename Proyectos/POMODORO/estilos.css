@@ -1,0 +1,17 @@
+
+
+body {
+    background-color:mediumpurple;
+    color:rebeccapurple;
+    text-align:center;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+button {
+    margin: 5px;
+    background-color: lightpink;
+    color: hotpink;
+    padding:10px 20px;
+    border: none;
+    border-radius: 8px;
+}

@@ -14,7 +14,6 @@ if cantidad_partidas > 0 :
     posicion_final = []
 
 
-
     for indice in range(cantidad_partidas):
         print(f'\nPartida {indice + 1}')
 

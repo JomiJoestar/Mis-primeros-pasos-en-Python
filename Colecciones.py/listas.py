@@ -3,7 +3,7 @@
 
 # Listas en Python: Las listas son colecciones ordenadas y mutables de elementos que pueden ser diferentes... Las listas son dinamicas, las podemos cambiar de tamaño, añadir, modificar o eliminar elementos.
 
-mi_lista = [1,2,3,4,5,6]
+mi_lista = [1, 2, 3, 4, 5, 6]
 
 # Su estructura es con corchetes.
 
@@ -46,7 +46,7 @@ print(f'{mi_lista} -> Se removio el elemento 6')
 mi_lista.pop(0) # Remueve el elemento del indice 0 
 print(f'{mi_lista} -> Se elimino el indice 0, es decir el 1') #Al eliminar un elemento las casillas vuelven, es decir recorren una casilla a la izquierda
 
-del mi_lista(2)
+del mi_lista[2]
 print(f'{mi_lista} -> se elimino el indice 2')
 
 # Obtener sublistas
